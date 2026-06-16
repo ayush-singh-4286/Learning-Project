@@ -14,7 +14,7 @@ function App() {
   // Tracks if the mouse is hovering over the "Your Tasks" nav item
   const [isHovered, setIsHovered] = useState(false);
 
-  const API_URL = "http://localhost:3000/notes";
+  const API_URL = "https://learning-project-backend-03x3.onrender.com/notes";
 
   // Modernized theme styles matching high-end UI/UX standards
   const theme = {
